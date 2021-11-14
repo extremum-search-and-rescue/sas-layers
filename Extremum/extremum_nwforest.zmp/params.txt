@@ -1,0 +1,27 @@
+[PARAMS]
+pnum=02
+GUID={20610184-BA82-4EBA-9554-56AA37CA3BEA}
+name_ru=Лесничества
+name=Lesnichestva
+ParentSubMenu=ПСО Экстремум
+ParentSubMenu_en=Extremum
+DefURLBase=http://map.extremum.org/maps875/forest/z{z}/{y}/{x}.png
+RequestHead=User-Agent: SASPlanet,v106
+asLayer=1
+projection=1
+sradiusa=6378137
+sradiusb=6378137
+NameInCache=gis\extremum\nwforest
+separator=0
+Ext=.png
+UseDwn=1
+Usestick=1
+UseGenPrevious=1
+Usedel=1
+Usesave=1
+UseAntiBan=0
+Sleep=0
+DefHotKey=0
+ContentType=image/png
+BanIfLen=0
+

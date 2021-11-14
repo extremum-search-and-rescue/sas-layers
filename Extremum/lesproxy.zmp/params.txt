@@ -1,0 +1,16 @@
+[PARAMS]
+pnum=02
+GUID={20625566-AF61-4EBA-5854-56AA37CA3BEA}
+name_ru=Лесное хозяйство
+name=Forrestries
+ParentSubMenu=ГИС для ПСР
+ParentSubMenu_en=GIS for SAR
+DefURLBase=http://layers.extremum.org/v2/other/roslesinforgproxy?bbox={bbox}
+RequestHead=User-Agent: SASPlanet,v106
+asLayer=1
+projection=1
+sradiusa=6378137
+sradiusb=6378137
+NameInCache=gis\extremum\roslesinforg
+Ext=.png
+ContentType=image/png

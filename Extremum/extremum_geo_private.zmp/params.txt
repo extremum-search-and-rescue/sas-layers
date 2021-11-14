@@ -1,0 +1,30 @@
+﻿[PARAMS]
+pnum=03
+GUID={11422D21-5B7F-4805-2328-8332433BC9A7}
+asLayer=1
+name=Extremum geolocation service 1-2
+name_ru=Геолокация 1-2
+NameInCache=gis\extemum_geo_private
+DefURLBase=http://layers.extremum.org/v2/extremum/geolocation/{z}/{x}/{y}.kml
+RequestHead=User-Agent: SASPlanet,v106
+ContentType=text/xml; charset=utf-8
+ParentSubMenu=ПСО Экстремум
+ParentSubMenu_en=Extremum
+Ext=.kml
+projection=1
+sradiusa=6378137
+sradiusb=6378137
+CacheType=9
+MemCacheTTL=15000
+MemCacheClearStrategy=0
+RestartDownloadOnMemCacheTTL=1
+MimeTypeSubst = """text/xml; charset=utf-8""=application/vnd.google-earth.kml+xml"
+MaxConnectToServerCount=24
+
+[PARAMS_Vector]
+UseAppearance=1
+
+[PARAMS_Vector_Point]
+IconSize=16
+IsForceIconName=0
+IsForceIconSize=0

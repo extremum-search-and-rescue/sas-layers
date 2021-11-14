@@ -1,0 +1,30 @@
+﻿
+[PARAMS]
+pnum=102
+GUID={11422D21-2B7F-4805-2328-1332471BC9A7}
+asLayer=1
+name=Strelki 
+name_ru=Стрелки РФ
+NameInCache=gis\extremum\strelki\kml
+DefURLBase=http://layers.extremum.org/v2/selector/strelki/{z}/{x}/{y}.kml
+RequestHead=User-Agent: SASPlanet,v106
+ContentType=text/xml; charset=utf-8
+ParentSubMenu=ГИС для ПСР
+ParentSubMenu_en=GIS for SAR
+Ext=.kml
+projection=1
+CacheType=4
+sradiusa=6378137
+sradiusb=6378137
+LayerZOrder=102
+MimeTypeSubst = """text/xml; charset=utf-8""=application/vnd.google-earth.kml+xml"
+MaxConnectToServerCount=24
+
+[PARAMS_Vector]
+UseAppearance=1
+
+[PARAMS_Vector_Point]
+IconName=maps\sas.maps\extremum\extremum_strelki.zmp\strelka.png
+IconSize=18
+IsForceIconName=0
+IsForceIconSize=0

@@ -1,0 +1,41 @@
+﻿
+[PARAMS]
+pnum=04
+GUID={11422D21-5B7F-4805-2328-1332433BC9A7}
+asLayer=1
+name=GPS trackers
+name_ru=Онлайн трекеры спасателей
+NameInCache=gis\onlinemonitor
+DefURLBase=http://layers.extremum.org/OnlineMonitor/username/password/
+RequestHead=User-Agent: SASPlanet,v106
+ContentType=text/xml; charset=utf-8
+ParentSubMenu=ПСО Экстремум
+ParentSubMenu_en=Extremum
+ParentSubMenu_uk=Экстремум
+Ext=.kml
+projection=1
+sradiusa=6378137
+sradiusb=6378137
+CacheType=9
+MemCacheTTL=60000
+MemCacheClearStrategy=2
+RestartDownloadOnMemCacheTTL=1
+MimeTypeSubst = """text/xml; charset=utf-8""=application/vnd.google-earth.kml+xml"
+MaxConnectToServerCount=24
+
+[PARAMS_Vector]
+UseAppearance=1
+
+[PARAMS_Vector_Line]
+IsForceLineColor=0
+IsForceLineWidth=0
+
+[PARAMS_Vector_Poly]
+IsForceLineColor=0
+IsForceLineWidth=0
+IsForceFillColor=0
+
+[PARAMS_Vector_Point]
+IconSize=18
+IsForceIconName=0
+IsForceIconSize=0

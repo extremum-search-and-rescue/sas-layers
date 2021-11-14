@@ -1,0 +1,31 @@
+﻿[PARAMS]
+pnum=300
+GUID={11422D21-8B7F-4805-2328-1332463BC9A7}
+asLayer=1
+name=Tracks history (tooltips z15+)
+name_ru=Треки ПСР (тултипы z15+)
+NameInCache=gis\otklik\v2\kml
+DefURLBase=http://layers.extremum.org/v2/otklik/tracks/{z}/{x}/{y}.kml
+RequestHead=User-Agent: SASPlanet,v106
+ContentType=text/xml; charset=utf-8
+ParentSubMenu=ПСО Отклик
+ParentSubMenu_en=Otklik
+Ext=.kml
+projection=1
+sradiusa=6378137
+CacheType=4
+sradiusb=6378137
+MimeTypeSubst = """text/xml; charset=utf-8""=application/vnd.google-earth.kml+xml"
+MaxConnectToServerCount=24
+
+[PARAMS_Vector]
+UseAppearance=1
+
+[PARAMS_Vector_Line]
+IsForceLineColor=0
+IsForceLineWidth=0
+
+[PARAMS_Vector_Poly]
+IsForceLineColor=0
+IsForceLineWidth=0
+IsForceFillColor=0

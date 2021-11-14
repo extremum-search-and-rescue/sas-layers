@@ -1,0 +1,29 @@
+﻿
+[PARAMS]
+pnum=04
+GUID={11422D21-5F7F-4805-2328-1332433BC9A7}
+asLayer=1
+name=Photo
+name_ru=Фотографии местности
+NameInCache=gis\v2\photo\kml
+DefURLBase=http://layers.extremum.org/v2/other/photo/{z}/{x}/{y}.kml
+RequestHead=User-Agent: SASPlanet,v106
+ContentType=text/xml; charset=utf-8
+ParentSubMenu=ГИС для ПСР
+ParentSubMenu_en=GIS for SAR
+Ext=.kml
+projection=1
+sradiusa=6378137
+sradiusb=6378137
+CacheType=4
+MimeTypeSubst = """text/xml; charset=utf-8""=application/vnd.google-earth.kml+xml"
+MaxConnectToServerCount=24
+
+[PARAMS_Vector]
+UseAppearance=1
+
+[PARAMS_Vector_Point]
+IconName=maps\sas.maps\extremum\extremum_photo.zmp\photo.png
+IconSize=18
+IsForceIconName=0
+IsForceIconSize=0

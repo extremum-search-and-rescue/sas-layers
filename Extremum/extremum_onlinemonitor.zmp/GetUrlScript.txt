@@ -1,0 +1,3 @@
+begin
+ ResultURL:=GetURLBase+RoundEx(GetLLon,9)+','+RoundEx(GetBLat,9)+','+RoundEx(GetRLon,9)+','+RoundEx(GetTLat,9)+','+inttostr(GetZ);
+end.

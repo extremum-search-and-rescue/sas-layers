@@ -1,0 +1,18 @@
+﻿[PARAMS]
+pnum=300
+GUID={11422D21-8B7F-4805-2588-1332433BC9A7}
+asLayer=1
+name=Search and rescue history
+name_ru=История треков ПСР
+NameInCache=gis\extremum\v2\png
+DefURLBase=http://layers.extremum.org/v2/extremum/tracks/{z}/{x}/{y}.png
+RequestHead=User-Agent: SASPlanet,v106
+ContentType=image/png
+ParentSubMenu=ПСО Экстремум
+ParentSubMenu_en=Extremum
+Ext=.png
+projection=1
+sradiusa=6378137
+CacheType=4
+sradiusb=6378137
+MaxConnectToServerCount=24

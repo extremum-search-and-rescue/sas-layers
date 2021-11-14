@@ -1,0 +1,40 @@
+﻿[PARAMS]
+pnum=04
+GUID={11422D21-5B7F-4805-2558-1332433BC9A7}
+asLayer=1
+name=Live events (thunder, plains, trains)
+name_ru=Электрички, самолёты, молнии
+NameInCache=gis\v2\live
+DefURLBase=http://layers.extremum.org/v2/other/live/{z}/{x}/{y}.kml
+RequestHead=User-Agent: SASPlanet,v106
+ContentType=text/xml; charset=utf-8
+ParentSubMenu=ГИС для ПСР
+ParentSubMenu_en=GIS for SAR
+ParentSubMenu_uk=ГИС для ПСР
+Ext=.kml
+projection=1
+sradiusa=6378137
+sradiusb=6378137
+CacheType=9
+MemCacheTTL=7000
+MemCacheClearStrategy=0
+RestartDownloadOnMemCacheTTL=1
+MimeTypeSubst = """text/xml; charset=utf-8""=application/vnd.google-earth.kml+xml"
+MaxConnectToServerCount=24
+
+[PARAMS_Vector]
+UseAppearance=1
+
+[PARAMS_Vector_Line]
+IsForceLineColor=0
+IsForceLineWidth=0
+
+[PARAMS_Vector_Poly]
+IsForceLineColor=0
+IsForceLineWidth=0
+IsForceFillColor=0
+
+[PARAMS_Vector_Point]
+IconSize=18
+IsForceIconName=0
+IsForceIconSize=0

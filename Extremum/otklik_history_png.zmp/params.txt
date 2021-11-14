@@ -1,0 +1,18 @@
+﻿[PARAMS]
+pnum=400
+GUID={11422D21-8B7F-4805-2328-1342463BC9A7}
+asLayer=1
+name=Tracks history
+name_ru=Треки ПСР
+NameInCache=gis\otklik\v2\png
+DefURLBase=http://layers.extremum.org/v2/otklik/tracks/{z}/{x}/{y}.png
+RequestHead=User-Agent: SASPlanet,v106
+ContentType=image/png
+ParentSubMenu=ПСО Отклик
+ParentSubMenu_en=Otklik
+Ext=.png
+projection=1
+sradiusa=6378137
+CacheType=4
+sradiusb=6378137
+MaxConnectToServerCount=24

@@ -1,0 +1,18 @@
+﻿[PARAMS]
+pnum=300
+GUID={11422D21-7C7F-4805-2588-1332433BC9A7}
+asLayer=1
+name=Grids
+name_ru=Сетки
+NameInCache=gis\lizaalert\v2\grid\png\
+DefURLBase=http://layers.extremum.org/v2/lizaalert/grid/{z}/{x}/{y}.png
+RequestHead=User-Agent: SASPlanet,v106
+ContentType=image/png
+ParentSubMenu=Лиза Алерт
+ParentSubMenu_en=Liza Alert
+Ext=.png
+projection=1
+sradiusa=6378137
+CacheType=4
+sradiusb=6378137
+MaxConnectToServerCount=24

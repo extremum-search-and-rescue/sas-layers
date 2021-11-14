@@ -1,0 +1,30 @@
+﻿[PARAMS]
+pnum=04
+GUID={98911D21-5F7F-4805-2328-1332433BC9A7}
+asLayer=1
+name=Weather
+name_ru=Погода
+NameInCache=gis\v2\weather\kml
+DefURLBase=http://layers.extremum.org/v2/other/weather/{z}/{x}/{y}.kml
+RequestHead=User-Agent: SASPlanet,v106
+ContentType=text/xml; charset=utf-8
+ParentSubMenu=ГИС для ПСР
+ParentSubMenu_en=GIS for SAR
+Ext=.kml
+projection=1
+sradiusa=6378137
+sradiusb=6378137
+CacheType=9
+MemCacheTTL=300000
+MemCacheClearStrategy=0
+RestartDownloadOnMemCacheTTL=1
+MimeTypeSubst = """text/xml; charset=utf-8""=application/vnd.google-earth.kml+xml"
+MaxConnectToServerCount=24
+
+[PARAMS_Vector]
+UseAppearance=1
+
+[PARAMS_Vector_Point]
+IconSize=18
+IsForceIconName=0
+IsForceIconSize=0

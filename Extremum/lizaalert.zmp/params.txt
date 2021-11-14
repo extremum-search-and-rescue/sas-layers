@@ -1,0 +1,32 @@
+﻿
+[PARAMS]
+pnum=300
+GUID={A7422D21-8B7F-4805-2328-1332433BC9A7}
+asLayer=1
+name=Tracks history (tooltips z15+)
+name_ru=Треки поисков (тултипы z15+)
+NameInCache=gis\lizaalert\v2\kml\
+DefURLBase=http://layers.extremum.org/v2/lizaalert/tracks/{z}/{x}/{y}.kml
+RequestHead=User-Agent: SASPlanet,v106
+ContentType=text/xml; charset=utf-8
+ParentSubMenu=Лиза Алерт
+ParentSubMenu_en=Liza Alert
+Ext=.kml
+projection=1
+sradiusa=6378137
+CacheType=4
+sradiusb=6378137
+MimeTypeSubst = """text/xml; charset=utf-8""=application/vnd.google-earth.kml+xml"
+MaxConnectToServerCount=24
+
+[PARAMS_Vector]
+UseAppearance=1
+
+[PARAMS_Vector_Line]
+IsForceLineColor=0
+IsForceLineWidth=0
+
+[PARAMS_Vector_Poly]
+IsForceLineColor=0
+IsForceLineWidth=0
+IsForceFillColor=0

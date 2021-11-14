@@ -1,0 +1,25 @@
+[PARAMS]
+pnum=146
+GUID={80422D21-3B7F-4805-2329-9332433BC9A7}
+asLayer=0
+name=ГГЦ 250 м Экстремум
+name_en=ГГЦ 250 m EX
+name_uk=ГГЦ 250 м EX
+NameInCache=gis\extremum\genshtab250mex
+DefURLBase=http://map.extremum.org/maps875/genshtab250m/z{z}/{y}/{x}.jpg
+RequestHead=User-Agent: SASPlanet,v106
+defaultContentType=image/jpeg
+IgnoreContentType=1
+ParentSubMenu=ПСО Экстремум
+ParentSubMenu_en=Extremum
+ParentSubMenu_uk=Экстремум
+Ext=.jpg
+projection=1
+sradiusa=6378137
+sradiusb=6378137
+separator=0
+UseDwn=1
+Sleep=0
+DefHotKey=0
+ContentType="image/jpeg"
+MaxConnectToServerCount=1
