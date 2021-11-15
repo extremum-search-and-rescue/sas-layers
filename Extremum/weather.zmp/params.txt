@@ -19,7 +19,7 @@ MemCacheTTL=300000
 MemCacheClearStrategy=0
 RestartDownloadOnMemCacheTTL=1
 MimeTypeSubst = """text/xml; charset=utf-8""=application/vnd.google-earth.kml+xml"
-MaxConnectToServerCount=24
+MaxConnectToServerCount=2
 
 [PARAMS_Vector]
 UseAppearance=1
