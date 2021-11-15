@@ -15,4 +15,4 @@ projection=1
 sradiusa=6378137
 CacheType=4
 sradiusb=6378137
-MaxConnectToServerCount=24
+MaxConnectToServerCount=4
