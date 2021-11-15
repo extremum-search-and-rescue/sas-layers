@@ -1,9 +1,9 @@
 [PARAMS]
 pnum=02
 GUID={20625566-AF61-4EBA-5854-56AA37CA3BEA}
-name_ru=Лесное хозяйство
+name_ru=Р›РµСЃРЅС‹Рµ РєРІР°СЂС‚Р°Р»С‹
 name=Forrestries
-ParentSubMenu=ГИС для ПСР
+ParentSubMenu=Р“РРЎ РґР»СЏ РџРЎРћ
 ParentSubMenu_en=GIS for SAR
 DefURLBase=http://layers.extremum.org/v2/other/roslesinforgproxy?bbox={bbox}
 RequestHead=User-Agent: SASPlanet,v106
